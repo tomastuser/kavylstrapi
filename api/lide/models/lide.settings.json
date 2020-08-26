@@ -13,6 +13,9 @@
     "Jmeno": {
       "type": "string"
     },
+    "Pozice": {
+      "type": "string"
+    },
     "Popis": {
       "type": "richtext"
     },
