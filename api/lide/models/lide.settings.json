@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "lides",
+  "info": {
+    "name": "lide",
+    "displayName": "Lidé"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Jmeno": {
+      "type": "string"
+    },
+    "Popis": {
+      "type": "richtext"
+    },
+    "Image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": ["images", "files", "videos"],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

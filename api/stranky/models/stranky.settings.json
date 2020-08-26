@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "strankies",
+  "info": {
+    "name": "Stranky",
+    "displayName": "Stránky"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Nazev": {
+      "type": "string"
+    },
+    "Text": {
+      "type": "richtext"
+    }
+  }
+}
