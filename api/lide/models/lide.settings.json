@@ -11,13 +11,16 @@
   },
   "attributes": {
     "Jmeno": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "Pozice": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "Popis": {
-      "type": "richtext"
+      "type": "richtext",
+      "required": true
     },
     "Image": {
       "model": "file",
