@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/aktuality",
-      "handler": "aktuality.find",
+      "path": "/sponzori",
+      "handler": "sponzori.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/aktuality/count",
-      "handler": "aktuality.count",
+      "path": "/sponzori/count",
+      "handler": "sponzori.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/aktuality/:id",
-      "handler": "aktuality.findOne",
+      "path": "/sponzori/:id",
+      "handler": "sponzori.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/aktuality",
-      "handler": "aktuality.create",
+      "path": "/sponzori",
+      "handler": "sponzori.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/aktuality/:id",
-      "handler": "aktuality.update",
+      "path": "/sponzori/:id",
+      "handler": "sponzori.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/aktuality/:id",
-      "handler": "aktuality.delete",
+      "path": "/sponzori/:id",
+      "handler": "sponzori.delete",
       "config": {
         "policies": []
       }

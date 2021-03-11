@@ -3,7 +3,7 @@
   "collectionName": "lides",
   "info": {
     "name": "lide",
-    "displayName": "Lidé"
+    "displayName": "Tým"
   },
   "options": {
     "increments": true,
@@ -25,7 +25,11 @@
     "Image": {
       "model": "file",
       "via": "related",
-      "allowedTypes": ["images", "files", "videos"],
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
       "plugin": "upload",
       "required": false
     }

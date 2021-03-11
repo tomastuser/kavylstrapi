@@ -1,9 +1,9 @@
 {
   "kind": "collectionType",
-  "collectionName": "aktualities",
+  "collectionName": "sponzoris",
   "info": {
-    "name": "Aktuality",
-    "displayName": "Aktuality"
+    "name": "Sponzori",
+    "displayName": "Sponzoři"
   },
   "options": {
     "increments": true,
@@ -14,20 +14,31 @@
       "type": "string",
       "required": true
     },
-    "Text": {
-      "type": "richtext",
-      "required": true
-    },
     "Image": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
-        "images",
         "files",
+        "images",
         "videos"
       ],
       "plugin": "upload",
-      "required": false
+      "required": true
+    },
+    "Vyska": {
+      "type": "string"
+    },
+    "Poradi": {
+      "type": "integer"
+    },
+    "Odkaz": {
+      "type": "string"
+    },
+    "Okraj": {
+      "type": "decimal"
+    },
+    "Popis": {
+      "type": "string"
     }
   }
 }

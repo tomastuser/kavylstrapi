@@ -1,20 +1,24 @@
 {
   "kind": "collectionType",
-  "collectionName": "aktualities",
+  "collectionName": "lide_klubs",
   "info": {
-    "name": "Aktuality",
-    "displayName": "Aktuality"
+    "name": "tymKlubu",
+    "displayName": "Tým klubu"
   },
   "options": {
     "increments": true,
     "timestamps": true
   },
   "attributes": {
-    "Nazev": {
+    "Jmeno": {
       "type": "string",
       "required": true
     },
-    "Text": {
+    "Pozice": {
+      "type": "string",
+      "required": true
+    },
+    "Popis": {
       "type": "richtext",
       "required": true
     },

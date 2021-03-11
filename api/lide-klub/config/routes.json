@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/aktuality",
-      "handler": "aktuality.find",
+      "path": "/lide-klubs",
+      "handler": "lide-klub.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/aktuality/count",
-      "handler": "aktuality.count",
+      "path": "/lide-klubs/count",
+      "handler": "lide-klub.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/aktuality/:id",
-      "handler": "aktuality.findOne",
+      "path": "/lide-klubs/:id",
+      "handler": "lide-klub.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/aktuality",
-      "handler": "aktuality.create",
+      "path": "/lide-klubs",
+      "handler": "lide-klub.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/aktuality/:id",
-      "handler": "aktuality.update",
+      "path": "/lide-klubs/:id",
+      "handler": "lide-klub.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/aktuality/:id",
-      "handler": "aktuality.delete",
+      "path": "/lide-klubs/:id",
+      "handler": "lide-klub.delete",
       "config": {
         "policies": []
       }
